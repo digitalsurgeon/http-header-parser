@@ -1,0 +1,5 @@
+HTTP/1.0 200 OK
+cache-control: public
+content-length: 0
+content-type: image/svg+xml
+date: Tue, 22 Jun 2021 22:24:42 GMT
