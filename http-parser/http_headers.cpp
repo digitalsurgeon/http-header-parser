@@ -1,11 +1,13 @@
 #include <boost/smart_ptr/make_shared.hpp>
 
+#include "http_headers.hpp"
+
 #include <boost/algorithm/string.hpp>
 #include <iostream>
 #include <fstream>
 #include <regex>
 
-#include "http_headers.hpp"
+
 
 const std::string HEADER_SEPERATOR(":");
 const std::string STATUS_LINE_SEPERATOR(" ");
