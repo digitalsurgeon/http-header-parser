@@ -14,8 +14,8 @@
             filePath = "http-parser/main.cpp"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "32"
-            endingLineNumber = "32"
+            startingLineNumber = "45"
+            endingLineNumber = "45"
             landmarkName = "main(argc, argv)"
             landmarkType = "9">
             <Locations>
@@ -77,10 +77,394 @@
             filePath = "http-parser/main.cpp"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "30"
-            endingLineNumber = "30"
+            startingLineNumber = "43"
+            endingLineNumber = "43"
             landmarkName = "main(argc, argv)"
             landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "DD1FD345-4976-43D2-86CB-50C92A78685E"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "http-parser/http_headers.cpp"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "83"
+            endingLineNumber = "83"
+            landmarkName = "http_headers::parse_headers(file_stream)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E02E3BDD-793D-4E7C-B2E4-04F1540DF62C"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "http-parser/http_headers.cpp"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "90"
+            endingLineNumber = "90"
+            landmarkName = "http_headers::parse_headers(file_stream)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "23871458-FA58-47D3-8187-99F7B119E709"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "http-parser/http_headers.cpp"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "86"
+            endingLineNumber = "86"
+            landmarkName = "http_headers::parse_headers(file_stream)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "3AC44907-849E-4F08-90D8-62FF278B2D94"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "http-parser/http_headers.cpp"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "82"
+            endingLineNumber = "82"
+            landmarkName = "http_headers::parse_headers(file_stream)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "45FCBE17-8233-4FC2-8226-F978B002A88B"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "http-parser/main.cpp"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "37"
+            endingLineNumber = "37"
+            landmarkName = "main(argc, argv)"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "2EA539A0-DB6B-45D7-A1B2-E9295F3C7E8A"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "http-parser/main.cpp"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "18"
+            endingLineNumber = "18"
+            landmarkName = "main(argc, argv)"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "26A38725-0F17-415E-941A-BD7E2F7FE026"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "http-parser/main.cpp"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "38"
+            endingLineNumber = "38"
+            landmarkName = "main(argc, argv)"
+            landmarkType = "9">
+            <Locations>
+               <Location
+                  uuid = "26A38725-0F17-415E-941A-BD7E2F7FE026 - 72e466893b66f0b7"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "main"
+                  moduleName = "http-parser"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ahmad/work/http-header-parser/http-parser/main.cpp"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "39"
+                  endingLineNumber = "39"
+                  offsetFromSymbolStart = "536">
+               </Location>
+               <Location
+                  uuid = "26A38725-0F17-415E-941A-BD7E2F7FE026 - 72e466893b66f0b7"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "main"
+                  moduleName = "http-parser"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ahmad/work/http-header-parser/http-parser/main.cpp"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "39"
+                  endingLineNumber = "39"
+                  offsetFromSymbolStart = "276">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C9E6791A-1B47-42AE-8516-37902C54AC5C"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "http-parser/main.cpp"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "36"
+            endingLineNumber = "36"
+            landmarkName = "main(argc, argv)"
+            landmarkType = "9">
+            <Locations>
+               <Location
+                  uuid = "C9E6791A-1B47-42AE-8516-37902C54AC5C - 72e466893b66f375"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "main"
+                  moduleName = "http-parser"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ahmad/work/http-header-parser/http-parser/main.cpp"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "37"
+                  endingLineNumber = "37"
+                  offsetFromSymbolStart = "528">
+               </Location>
+               <Location
+                  uuid = "C9E6791A-1B47-42AE-8516-37902C54AC5C - 72e466893b66f314"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "main"
+                  moduleName = "http-parser"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ahmad/work/http-header-parser/http-parser/main.cpp"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "36"
+                  endingLineNumber = "36"
+                  offsetFromSymbolStart = "224">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D3777086-7783-40A0-805A-CBF366CE47AC"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "http-parser/main.cpp"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "31"
+            endingLineNumber = "31"
+            landmarkName = "main(argc, argv)"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "4C78BF0E-1062-4DC5-B95C-C9082A2812E2"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "http-parser/main.cpp"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "27"
+            endingLineNumber = "27"
+            landmarkName = "main(argc, argv)"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "BA49BA3E-8178-451A-8C86-62ECD5D56D7E"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "http-parser/http_headers.cpp"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "39"
+            endingLineNumber = "39"
+            landmarkName = "http_headers::parse_status_line(file_stream)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "BA49BA3E-8178-451A-8C86-62ECD5D56D7E - 589c14d05a770bf9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "http_headers::parse_status_line(std::__1::basic_istream&lt;char, std::__1::char_traits&lt;char&gt; &gt;&amp;)"
+                  moduleName = "http-parser"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ahmad/work/http-header-parser/http-parser/http_headers.cpp"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "46"
+                  endingLineNumber = "46"
+                  offsetFromSymbolStart = "132">
+               </Location>
+               <Location
+                  uuid = "BA49BA3E-8178-451A-8C86-62ECD5D56D7E - 589c14d05a770ad0"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "http_headers::parse_status_line(std::__1::basic_istream&lt;char, std::__1::char_traits&lt;char&gt; &gt;&amp;)"
+                  moduleName = "http-parser"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ahmad/work/http-header-parser/http-parser/http_headers.cpp"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "39"
+                  endingLineNumber = "39"
+                  offsetFromSymbolStart = "132">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C4549F59-B6E0-4F5D-9CDA-74D650246955"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "http-parser/http_headers.cpp"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "52"
+            endingLineNumber = "52"
+            landmarkName = "http_headers::parse_status_line(file_stream)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "C4549F59-B6E0-4F5D-9CDA-74D650246955 - 589c14d05a77044c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "http_headers::parse_status_line(std::__1::basic_istream&lt;char, std::__1::char_traits&lt;char&gt; &gt;&amp;)"
+                  moduleName = "http-parser"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ahmad/work/http-header-parser/http-parser/http_headers.cpp"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "59"
+                  endingLineNumber = "59"
+                  offsetFromSymbolStart = "284">
+               </Location>
+               <Location
+                  uuid = "C4549F59-B6E0-4F5D-9CDA-74D650246955 - 589c14d05a7704a3"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "http_headers::parse_status_line(std::__1::basic_istream&lt;char, std::__1::char_traits&lt;char&gt; &gt;&amp;)"
+                  moduleName = "http-parser"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ahmad/work/http-header-parser/http-parser/http_headers.cpp"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "52"
+                  endingLineNumber = "52"
+                  offsetFromSymbolStart = "284">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "4E8629B9-09AE-494E-9F34-3FABB1EF430E"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "http-parser/http_headers.cpp"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "60"
+            endingLineNumber = "60"
+            landmarkName = "http_headers::parse_status_line(file_stream)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "4E8629B9-09AE-494E-9F34-3FABB1EF430E - 589c14d05a7706b4"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "http_headers::parse_status_line(std::__1::basic_istream&lt;char, std::__1::char_traits&lt;char&gt; &gt;&amp;)"
+                  moduleName = "http-parser"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ahmad/work/http-header-parser/http-parser/http_headers.cpp"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "67"
+                  endingLineNumber = "67"
+                  offsetFromSymbolStart = "484">
+               </Location>
+               <Location
+                  uuid = "4E8629B9-09AE-494E-9F34-3FABB1EF430E - 589c14d05a7705ab"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "http_headers::parse_status_line(std::__1::basic_istream&lt;char, std::__1::char_traits&lt;char&gt; &gt;&amp;)"
+                  moduleName = "http-parser"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ahmad/work/http-header-parser/http-parser/http_headers.cpp"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "60"
+                  endingLineNumber = "60"
+                  offsetFromSymbolStart = "484">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C3AB2D60-4B03-42FC-81F0-971FD789FFA5"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "http-parser/http_headers.cpp"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "19"
+            endingLineNumber = "19"
+            landmarkName = "http_headers::from(file_stream)"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

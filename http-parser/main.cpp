@@ -14,11 +14,24 @@ using namespace std;
 int main(int argc, const char * argv[]) {
 
     std::fstream fstream;
-    fstream.open("/Users/ahmad/work/http-parser/http-parser/resources/test/simple_http_response_headers.txt");
+    fstream.open("/Users/ahmad/work/http-header-parser/http-parser/resources/test/bad_no_status_line_http_response_headers.txt");
     if (!fstream.is_open()) {
         std::cout << "unable to open the file, exiting." << std::endl;
         exit(EXIT_FAILURE);
     }
+
+
+    
+    boost::leaf::result<std::shared_ptr<http_headers>> r = boost::leaf::try_handle_some(
+                                                                                        [&fstream]() -> boost::leaf::result<std::shared_ptr<http_headers>> {
+                                                  return http_headers::from(fstream);
+                                              },
+                                              
+                                              [](http_headers::http_headers_error err) -> boost::leaf::result<std::shared_ptr<http_headers>> {
+                                                  return {};
+                                              }
+                                                                                        );
+    
 
     boost::leaf::result<std::shared_ptr<http_headers>> result = http_headers::from(fstream);
     if (!result) {

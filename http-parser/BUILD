@@ -31,6 +31,7 @@ cc_test(
         "//http-parser:http-parser"],
     data =
         glob([
-        "resources/test/simple_http_response_headers.txt"
+        "resources/test/simple_http_response_headers.txt",
+        "resources/test/bad_no_status_line_http_response_headers.txt",
     ]),
 )

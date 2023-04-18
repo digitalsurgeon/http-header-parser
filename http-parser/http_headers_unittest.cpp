@@ -59,3 +59,30 @@ TEST(http_headers, ConstructNormally) {
             headers->get_value("date").value()
             );
 }
+
+TEST(http_headers, ConstructWithBadStatusLine) {
+
+    std::fstream fs;
+    std::string resource = test_resources_path +"bad_no_status_line_http_response_headers.txt";
+
+    fs.open(resource);
+    if (!fs.is_open()) {
+        FAIL() << "unable to open file:" << strerror(errno) << endl;
+    }
+
+    boost::leaf::result<std::shared_ptr<http_headers>> result = boost::leaf::try_handle_some(
+     [&fs]() -> boost::leaf::result<std::shared_ptr<http_headers>> {
+                                    return http_headers::from(fs);
+                            },
+                        [](http_headers::http_headers_error err) -> boost::leaf::result<std::shared_ptr<http_headers>> {
+                            
+                                EXPECT_EQ(
+                                          http_headers::http_headers_error::bad_status_line,
+                                          err
+                                          );
+                            
+                            return {};
+                        });
+
+    
+}
