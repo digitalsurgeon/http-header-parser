@@ -10,3 +10,5 @@ to run test:
 
 if you dont want to run test, then you can also build with c++11, I have not tested
 wwith older c++ standard, but it should work (unless any of the dependencies require a higher version)
+
+if running tests you encounter 'Operation permitted error' then try adding `--spawn_strategy=local` to the test command above
